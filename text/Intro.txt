@@ -1,0 +1,59 @@
+﻿
+
+	This is a Digital Humanities project. This field have not a correct description. However, one of the well-known formulating is : an academic field concerned with the application of computational tools and methods to traditional humanities disciplines such as literature, history, and philosophy.
+	Its importance as a field has been accredited many times by a lot of scholars. One of them is David M. Berry. According to him, nowadays it is almost impossible to do a research for a particular topic, without any computer skills. Even the scholars that are using libraries have access to data basses managed systems(D. M. Berry, 2012: 20p.). However, the true power comes when we acquire computational skills, known in the Data Science field. For instance, NLP can help us to extract meaningful information from a big pale of books(which of course before that have been scanned with OCR technology and stored in a online catalogs, through databases ). Such an operation could take a century for a person without access to those tools. Also, there could be found a patterns in a cultural objects or arteffacts with machine learning. My favourite projects from the cultural sector are by Melissa Tarrass. She shows how image-processing techniques may be used to reconstruct ancient Theran wall paintings or to help us to read ancient documents, such as the Vindolanda Tablets from Hadrian’s Wall. She discusses different processing techniques and research methods and the new discoveries that these have made possible.(UCL :  Digital Humanities in Practice, Ch.4) If you want to see more about her work, you can watch her keynote from the Digital Humanities Benelux Conference (2014).
+	We can get apropriate vision of what Digital Humanities field is only by becoming more familiar with Stanford’s projects from the Humanities Center, which are called “Humanities + Digital Tools”, they are stored as short presentations in their channel on YouTube(and could be found here : https://www.youtube.com/watch?v=K_Q2olSSk4Y&list=PLpGHT1n4-mAt0fgnvPgbq1RB6YNsdg7QM) . Personally, my favourite project from Stanford’s team is so-called “Palladio” . It is an analytic app (tool) for looking at a historical data across time and space. 
+	Finally, lets just become more familiar with the Museum and the main art work which we are going to analyze and use for this project. The Rijksmuseum is a Dutch national museum dedicated to arts and history in Amsterdam. Here are exhibited a lot of famous cultural objects. One of them is the masterpiece by Rijn van Rembrandt, the well-known ‘the Night watch’. It is a work, which has been so admired and so well studied by art historians, that it have much assumtions and studies, why this is the perfect example of his genius. Before starting the painting Rembrandt has send a letter to a friend of his, in which he has noted what want to do with his next work. Rijn wanted to achieve “'the greatest and most natural movement.”, and of course he succededd. (Robert Wallace : 1968).  As a result, one of his numerous analysator says that the dignity in the composition was not impaired. For instance, the troops, who has moving behind the main figures are “full of life and movement, full of nature and truth, enhanced by the banging of muskets, the drumbeats, the waving of banners, and rattling of spears!” (JHNA 5:1, 2013)
+	The following paper will be used as a Data Science project for a practical exam. The course Data Science- July 2020 is hosted by Software University, Bulgaria. 
+
+As a source of our topic will be used the public access to Rijksmuseum’s collection. From it we will form a number of hypothesis, which have been researched. Before every main section there will be a text information like this, with full information about the researched hypothesis, the structure of the code, and at the end will be presented the outcome of the analyze. Every cell will be documented as well. The sections are as follows : 
+
+1. Cleaning of the data set (half a million records) :
+	
+	 Here we will clean the data set acquired from the public data base of the museum. Also there will be provided information how everyone can access it. In this section the data frame will be translated from Dutch to English.
+
+2. EDA (Explanatory Data Analysis) and Data Visualization :
+	
+	 A deep analysis will be provided for the different types of works. There will be a visualization of the analyze, as well. Thus, we are going to prove our first hypothesis, which will be explained in details before the section. However, it main question is if the curators of the museum has exhibited the objects properly. 
+
+
+3.Creating a model :
+
+	- In this section the images of the paintings will be downloaded and stored for separated folders(for training and testing the model). Our goal here is to create a model, which is based on Traditional Machine Learning algorithm and will be able to segment and classify paintings with similar features, as the well-known “Night Watch” by Rembrandt. 
+
+4.Optimizing the model :
+
+	- In this section the model will be cleaned from every useless feature from the generated ones. Also, we will train the accuracy of the model .
+
+5.Traditional Machine Learning : 
+
+	- Here we will load our model and use it to separate in a new folder every painting which is similar to the one by Rembrandt. After the operation we will have a base from which we can contrast how Remrandt’s work is different with anyother example on the same topic. Also we will base to streghten our arguments for the second and third hypothesis.
+
+6. Proving our Second and Third hypothesis. 
+
+	- Here with the results after the segmentation and the classifying we will have 10 paintings with the same topic on the same subject, as the Rembrandt’s Night Watch. Thus, we will be able to apply karnels to our results. Before every  point will be printed a description about the both hypothesis, how they have been formed from the scholars, and how we are going to prove them. However, lets  view them briefly. 
+
+	6.1 The Edge Detection karnel will help us to noting the different patterns, uses and general idea of the edges in the painting by Rembrand contrasted with everyone’s else. Here the hypothesis that will be proved is if the uses of spares,flags and muskets and their positioning are chaotic and if their varying traectory is different from other 9 paintings. The question is raised, because art historians believes that this aspect is important for “Night Watch”, because it brings such a feeling of movement and action. 
+
+	6.2 The Box Blur karnel will help us to blur the works more. This is needed because we will form hypothesis from which if we blur the paintings once more, the secondary figures in Rembrand’s work will become almost impossible for indefitication. This is expected after the theory by art historians, who says that Rembrand’s is among the first painters, who has painted the optical focus in his paintings. Something which after a centuries will find a application in the cameras as the ‘bokeh’ effect or in the cinematography as the focus of the lenses. 
+
+	7.Outcomes and self-marking. 
+
+	-In this section we will combine the outcomes from the notebook. Also there will be provided a self- scoring to my project by me, as this is the format of the exam. We will see the official scoring document, as well. 
+
+	8.Mark
+	
+	 Finally I will attach the official score by my tutor, when the notebook is inspected and reviewed, in its finished form. 
+
+Bibliography : 
+1. Berry, D, “Introduction: Understanding the Digital Humanities”, in Understanding Digital Humanities (Palgrave Macmillan UK: 2012) p.19
+2. UCL : Digital Humanities in Practice (Chapter 4)
+(url : https://blogs.ucl.ac.uk/dh-in-practice/chapter-4/)
+3. Digital Humanities Benelux Conference (The Hague: 2014)
+(url : https://www.youtube.com/watch?v=k_geG9cdIAs)
+'As a result, their dignity was not impaired, so that the troops
+4. Robert Wallace, The World of Rembrandt, 1606-1669, Time-Life Books, New York, 1968., p. 67
+5. D.C. Meijer Jr, The Amsterdam Civic Guard Portraits within and outside the NewRijksmuseum, Pt. II (JHNA 5:1 (Winter 2013) p.3)
+
+
+

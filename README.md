@@ -1,5 +1,6 @@
-# [Rembrandt's Genius](https://indzhov.github.io/Rembrandt-s-Genius/)  # [the code:](https://github.com/indzhov/Rembrandt-s-Genius/blob/master/Untitled.ipynb) 
-(Click on the title for a web version)
+# [Rembrandt's Genius](https://indzhov.github.io/Rembrandt-s-Genius/) 
+[(the code)](https://github.com/indzhov/Rembrandt-s-Genius/blob/master/Untitled.ipynb) 
+
 
 This is my final project for the Data Science course, provided by SoftUni Bulgaria. It is trying to accredit the theory behind the Rembrandt's genius through the scientific way, that we were taught during the course .
 

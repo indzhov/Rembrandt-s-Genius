@@ -26,11 +26,13 @@ As a source of our topic will be used the public access to Rijksmuseum’s colle
   - The pictures production has been very chaotic, its disappearing as a medium is in the begining of 20th century.
   ![graph5: ](graphs/the_production_of_pictures_through_years.png)
   
- # First Hypothesis : 
+# First Hypothesis : 
 Our hypothesis will be examined after we separate every picture through 17th century(the century in which Remrandt has produced Night Watch, the painting which is exhibited centraly in the “Night Watch Room”) into a different category. The grouping in categories will be done by the numbers of works produced by a single painter through this period. Basically, we will explore the theory that a curator in a particular museum is trying to aquire or keep more paintings related or produced by a native painter. Next, from the visualization we will conclude if in the Rijkmuseum, the dutch painters though 17th century have succeded to attract the attention of the curator.
-  H0.1 - Here we pay particular attention to the circle of painter, whose have a lot of works in the collection e.g the curators have particular attention to them:
+# H0.1
+Here we pay particular attention to the circle of painter, whose have a lot of works in the collection e.g the curators have particular attention to them:
   ![graph6: ](graphs/categorization.png)
-  H0.2 - Here we are analysing them more closely:
+# H0.2 
+Here we are analysing them more closely:
   ![graph7: ](graphs/artist_with_particular_attention.png)
 
 (Bonus Hint : we will see that Rembrandt is among the top 3 painters, whose works are numerous in the paintings category, through 1th century.)
@@ -39,11 +41,11 @@ Our hypothesis will be examined after we separate every picture through 17th cen
    Here the images of the paintings will be downloaded and stored for separated folders(for training and testing the model). Our goal here is to create a model, which is based on Traditional Machine Learning algorithm and will be able to segment and classify paintings with similar features, as the well-known “Night Watch” by Rembrandt. 
 # 4. Optimizing the model 
 # 5. Traditional Machine Learning
-  # Second Hypothesis : 
+# Second Hypothesis : 
   Here with the results after the segmentation and the classifying we will have 10 paintings with the same topic on the same subject, as the Rembrandt’s Night Watch. Thus, we will be able to apply karnels to our results. The Edge Detection karnel will help us to noting the different patterns, uses and general idea of the edges in the painting by Rembrand contrasted with everyone’s else. Here the hypothesis that will be proved is if the uses of spares,flags and muskets and their positioning are chaotic and if their varying traectory is different from other 9 paintings. The question is raised, because art historians believes that this aspect is important for “Night Watch”, because it brings such a feeling of movement and action. 
   ![graph9: ](graphs/edge_detection.png)
   
-  # Conclusion : It is clear that the edges in Night Watch are very different compared to the other results. They are not structured, nor their traectory is pointing at a common angle. For that reason, we can approve the second hypothesis. 
+# Conclusion : It is clear that the edges in Night Watch are very different compared to the other results. They are not structured, nor their traectory is pointing at a common angle. For that reason, we can approve the second hypothesis. 
   
   
   # Third Hypothesis : 

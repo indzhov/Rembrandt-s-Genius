@@ -48,11 +48,11 @@ Here we are analysing them more closely:
 # Conclusion : It is clear that the edges in Night Watch are very different compared to the other results. They are not structured, nor their traectory is pointing at a common angle. For that reason, we can approve the second hypothesis. 
   
   
-  # Third Hypothesis : 
+# Third Hypothesis : 
   The Box Blur karnel will help us to blur the works more. This is needed because we will form hypothesis from which if we blur the paintings once more, the secondary figures in Rembrand’s work will become almost impossible for indefitication. This is expected after the theory by art historians, who says that Rembrand’s is among the first painters, who has painted the optical focus in his paintings. Something which after a centuries will find a application in the cameras as the ‘bokeh’ effect or in the cinematography as the focus of the lenses. 
   ![graph10: ](graphs/box_blur.png)
  
- # Conclusion : It is easily noting that the figures in Rembrand's paintings, are not positioned in a structured form. Also, in other examples is seen how even the people in the back have the same sharpeness on their faces as the figures in front of the group. Thus, after the applying of the karnel the blured elements become stronger and in the Night Watch, the people in the back are difficult for recognition this means the painter has try to blur them for a reason and his idea is to capture the distance from the viewer. Nowadays, we know the same technique in the use of the lenses in our cameras and their optical distance, known also as Bokeh effect in the photography. 
+# Conclusion : It is easily noting that the figures in Rembrand's paintings, are not positioned in a structured form. Also, in other examples is seen how even the people in the back have the same sharpeness on their faces as the figures in front of the group. Thus, after the applying of the karnel the blured elements become stronger and in the Night Watch, the people in the back are difficult for recognition this means the painter has try to blur them for a reason and his idea is to capture the distance from the viewer. Nowadays, we know the same technique in the use of the lenses in our cameras and their optical distance, known also as Bokeh effect in the photography. 
   
 # Now we know, proved through the scientific way two of the main characters in the Rembrand's Genius .
 ![graph8: ](nightwatch.jpg)
